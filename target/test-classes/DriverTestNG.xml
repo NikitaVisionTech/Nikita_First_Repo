@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite">
+<parameter name = "url" value = "http://zero.webappsecurity.com/login.html"/>
+
+  <test name="TestOnChrome">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="com.zeroBank.tc.SmokeTest"/>
+
+    </classes>
+  </test> 
+  <!--  
+  <test name="TestOnFirefox">
+  <parameter name = "browser" value = "firefox"/>
+    <classes>
+      <class name="retailbanking.tc.SmokeTest"/>
+
+    </classes>
+  </test> 
+  -->
+
+</suite> 

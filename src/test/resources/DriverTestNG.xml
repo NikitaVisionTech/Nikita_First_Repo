@@ -6,7 +6,7 @@
   <test name="TestOnChrome">
   <parameter name = "browser" value = "chrome"/>
     <classes>
-      <class name="com.zeroBank.tc.SmokeTest"/>
+      <class name="com.zerobank.tc.SmokeTest_1"/>
 
     </classes>
   </test> 
